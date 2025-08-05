@@ -42,6 +42,11 @@ authors:
     orcid: https://orcid.org/0000-0001-8155-8038
     website: https://github.com/kmpaul
     affiliation: NVIDIA
+  - family-names: Condo
+    given-names: Bella
+    orcid: https://orcid.org/0009-0000-0688-7077 
+    website: https://github.com/bmcondo
+    affiliation: University at Albany (State University of New York)
   - family-names: Sears
     given-names: Mya
     orcid: https://orcid.org/0009-0003-5870-7498
@@ -51,3 +56,4 @@ authors:
     website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
 title: "Cookbook Template"
 abstract: "A sample cookbook description."
+
