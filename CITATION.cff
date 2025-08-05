@@ -54,6 +54,9 @@ authors:
     affiliation: NCAR
   - name: "Cookbook Template contributors" # use the 'name' field to acknowledge organizations
     website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
+    -family-names: Collins
+    given-names: MaKenna
+    orchid: https://orcid.org/0009-0003-5566-3370
 title: "Cookbook Template"
 abstract: "A sample cookbook description."
 
