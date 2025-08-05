@@ -54,6 +54,10 @@ authors:
     affiliation: NCAR
   - name: "Cookbook Template contributors" # use the 'name' field to acknowledge organizations
     website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
+  - family-names: Heaton
+    given-names: JD
+    orcid: https://orcid.org/0009-0005-7424-4889
+    affiliation: Metropolitan State University of Denver
     -family-names: Collins
     given-names: MaKenna
     orchid: https://orcid.org/0009-0003-5566-3370
