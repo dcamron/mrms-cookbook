@@ -5,3 +5,16 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - python=3.12
+  - xarray
+  - netcdf4
+  - cartopy
+  - numpy
+  - s3fs
+  - fsspec
+  - zarr
+  - cfgrib
+  - matplotlib
+  - conda
+  - pip:
+    - pelicanfs
