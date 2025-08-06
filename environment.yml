@@ -22,3 +22,4 @@ dependencies:
   - cftime
   - hvplot
   - metpy
+  - siphon
