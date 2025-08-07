@@ -1,22 +1,23 @@
-# (Replace_with_your_title) Cookbook
+# MRMS Cookbook
 
-<img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
+<img src="thumbnails/mrms-thumbnail.png" alt="thumbnail" width="300"/>
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
+[![nightly-build](https://github.com/ProjectPythia/mrms-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/mrms-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/mrms-cookbook/main?labpath=notebooks)
+<!-- [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405) -->
 
-_See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers how to access, analyze, and visualize Multi-radar, Multi-sensor (MRMS) Data.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+The Multi-Radar, Multi-Sensor (MRMS) System combines radar, surface, and upper-air observation to produce a high-resolution (1 km) dataset used by researchers and forecasters alike. Despite its use, there are few published Python workflows that illustrate how to access MRMS data from Amazon Web Services (AWS) and produce beautiful, useful visualizations. We hope this cookbook serves the MRMS-user community well!
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+<a href="https://github.com/ProjectPythia/mrms-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/mrms-cookbook" />
+</a>
 
 ### Contributors
 
@@ -26,15 +27,11 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
-
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-
-(Add content for this section, e.g., "The foundational content includes ... ")
-
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-
-(Add content for this section, e.g., "Example workflows include ... ")
+- <b>Chapter 1</b> offers a brief overview of MRMS data and provides context for how the data is organized on AWS.
+- <b>Chapter 2</b> contains a case study of the [March 24–27 2023 Tornado Outbreak](https://en.wikipedia.org/wiki/Tornado_outbreak_of_March_24–27,_2023), showcasing fields relevant to severe weather prediction.
+- <b>Chapter 3</b> examines another recent severe weather event, the [July 2025 Central Texas Floods](https://en.wikipedia.org/wiki/July_2025_Central_Texas_floods), instead focusing on precipitation fields and [FLASH](https://www.nssl.noaa.gov/projects/flash) output, including comparisons to station observations.
+- <b>Chapter 4</b> compares MRMS-derived precipitation estimates at Bankhead National Forest (BNF) Field Sites.
+- <b>Chapter 5</b> offers a real-time look at MRMS data with the opportunity to select certain data fields.
 
 ## Running the Notebooks
 
@@ -53,11 +50,11 @@ on the rocket ship icon, (see figure below), and be sure to select
 notebook that you can interact with. I.e. you’ll be able to execute
 and even change the example programs. You’ll see that the code cells
 have no output at first, until you execute them by pressing
-{kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with
+`Shift`\+`Enter`. Complete details on how to interact with
 a live Jupyter notebook are described in [Getting Started with
 Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter).
 
-Note, not all Cookbook chapters are executable. If you do not see
+Note: not all Cookbook chapters are executable. If you do not see
 the rocket ship icon, such as on this page, you are not viewing an
 executable book chapter.
 
@@ -66,22 +63,20 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/mrms-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/mrms-cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `mrms-cookbook` directory
    ```bash
-   cd cookbook-example
+   cd mrms-cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate mrms-cookbook-dev
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
