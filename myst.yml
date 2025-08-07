@@ -3,19 +3,35 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: MRMS Cookbook
+  description: A collection of Jupyter notebooks for working with Multi-Radar Multi-Sensor (MRMS) data.
+  github: https://github.com/projectpythia/mrms-cookbook
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: Ty Janoski
+      affiliation: City College of New York and NOAA/OAR National Severe Storms Laboratory
+      orcid: https://orcid.org/0000-0003-4344-355X
+    - name: Mya Sears
+      affiliation: NSF National Center for Atmospheric Research
+      orcid: https://orcid.org/0009-0003-5870-7498
+    - name: Bella Condo
+      affiliation: University at Albany (State University of New York)
+      orcid: https://orcid.org/0009-0000-0688-7077
+    - name: JD Heaton
+      affiliation: Metropolitan State University of Denver
+      orcid: https://orcid.org/0009-0005-7424-4889
+    - name: MaKenna Collins
+      affiliation: Jackson State University
+      orcid: https://orcid.org/0009-0003-5566-3370
+    - name: Maxwell Grover
+      affiliation: Argonne National Laboratory
+      orcid: https://orcid.org/0000-0002-0370-8974
+  copyright: '2025'
   toc:
     - file: README.md
-    - title: Preamble
-      children:
-        - file: notebooks/how-to-cite.md
-    - title: Introduction
-      children:
-        - file: notebooks/notebook-template.ipynb
+    - file: '"notebooks/Ch 1_Introduction.ipynb"'
+    - file: notebooks/ch2-mar-2023-tornado_jdh.ipynb
+    - file: notebooks/ch3_TXfloods.ipynb
+    - file: notebooks/ch4_realtimeData.ipynb
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: projectpythia/mrms-cookbook
