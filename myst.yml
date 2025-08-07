@@ -22,6 +22,9 @@ project:
     - name: MaKenna Collins
       affiliation: Jackson State University
       orcid: https://orcid.org/0009-0003-5566-3370
+    - name: Maxwell Grover
+      affiliation: Argonne National Laboratory
+      orcid: https://orcid.org/0000-0002-0370-8974
   copyright: '2025'
   toc:
     - file: README.md
