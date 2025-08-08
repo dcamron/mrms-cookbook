@@ -18,7 +18,6 @@ dependencies:
   - conda
   - ipykernel
   - conda
-  - nb_conda_kernels
   - ipywidgets
   - cftime
   - hvplot
