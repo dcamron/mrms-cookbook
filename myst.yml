@@ -31,6 +31,7 @@ project:
     - file: '"notebooks/Ch 1_Introduction.ipynb"'
     - file: notebooks/ch2-mar-2023-tornado_jdh.ipynb
     - file: notebooks/ch3_TXfloods.ipynb
+    - file: notebooks/bnf-mrms-qpe-hourly.ipynb
     - file: notebooks/ch4_realtimeData.ipynb
   jupyter:
       binder:

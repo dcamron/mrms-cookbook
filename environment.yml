@@ -1,6 +1,7 @@
 name: mrms-cookbook-dev
 channels:
   - conda-forge
+  - pyviz
 dependencies:
   - jupyterlab
   - mystmd
@@ -25,3 +26,4 @@ dependencies:
   - siphon
   - cmweather
   - geopandas
+  - geoviews
