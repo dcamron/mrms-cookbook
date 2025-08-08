@@ -1,6 +1,7 @@
-name: cookbook-dev
+name: mrms-cookbook-dev
 channels:
   - conda-forge
+  - pyviz
 dependencies:
   - jupyterlab
   - mystmd
@@ -12,9 +13,17 @@ dependencies:
   - numpy
   - s3fs
   - fsspec
-  - zarr
   - cfgrib
   - matplotlib
   - conda
-  - pip:
-    - pelicanfs
+  - ipykernel
+  - conda
+  - nb_conda_kernels
+  - ipywidgets
+  - cftime
+  - hvplot
+  - metpy
+  - siphon
+  - cmweather
+  - geopandas
+  - geoviews
